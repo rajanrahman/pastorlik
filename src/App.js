@@ -1,24 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>@pastorlik</h3>
+      <a href="https://itunes.apple.com/us/app/simple-radio-by-streema-tunein/id891132290?mt=8">
+        Rehema Radio via Simple Radio App
+      </a>
+      <a href="https://mobile.twitter.com/pastor_lik">Twitter</a>
     </div>
   );
 }
